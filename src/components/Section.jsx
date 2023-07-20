@@ -10,7 +10,7 @@ const styles = {
 function Section() {
     return (
         <section style={styles.sectionStyles} className='section'>
-            <h2>I'm a section</h2>
+            <h2>I am a section</h2>
         </section>
     )
 }
