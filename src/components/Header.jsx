@@ -6,14 +6,14 @@ const styles = {
         background: 'red',
     },
     headingStyle: {
-        fontSize:'100px'
+        fontSize:'70px'
     },
 }
 
 function Header() {
     return (
         <header style={styles.headerStyle} className='header'>
-            <h1 style={styles.headingStyle}>Hello World!</h1>
+            <h1 style={styles.headingStyle}>Samantha Shrauner</h1>
         </header>
     )
 }
