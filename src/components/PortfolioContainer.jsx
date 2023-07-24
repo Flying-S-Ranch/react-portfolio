@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
+      <section className="mx-3">{renderPage()}</section>
     </div>
   );
 }
