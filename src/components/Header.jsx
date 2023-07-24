@@ -23,7 +23,7 @@ function Header({ currentPage, handlePageChange }) {
             <div className="navbar-start">
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} 
+                  className={currentPage === 'About' ? 'navbar-item-active-color' : 'navbar-item'} 
                   href="#about"
                   onClick={() => handlePageChange('About')}>
                    About Me
@@ -32,7 +32,7 @@ function Header({ currentPage, handlePageChange }) {
 
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} 
+                  className={currentPage === 'Portfolio' ? 'navbar-item-active-color' : 'navbar-item'} 
                   href="#portfolio"
                   onClick={() => handlePageChange('Portfolio')}>
                    Portfolio
@@ -41,7 +41,7 @@ function Header({ currentPage, handlePageChange }) {
 
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
+                  className={currentPage === 'Contact' ? 'navbar-item-active-color' : 'navbar-item'} 
                   href="#contact"
                   onClick={() => handlePageChange('Contact')}>
                    Contact
@@ -50,7 +50,7 @@ function Header({ currentPage, handlePageChange }) {
 
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} 
+                  className={currentPage === 'Resume' ? 'navbar-item-active-color' : 'navbar-item'} 
                   href="#resume"
                   onClick={() => handlePageChange('Resume')}>
                    Resume
