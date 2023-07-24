@@ -1,14 +1,9 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <img src="../../../../assets/images/Shrauner.jpg" alt="Samantha with plant" width='250' />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Welcome to my personal portfolio. I am a junior developer eager to jump in and learn new skills. My favorite part of web development is the opportunity to blend problem solving and creativity in order to serve users well. I have experience with HTML, CSS, and JavaScript, and I have used technologies including MySQL, MongoDB and React. Full-stack web development is a fun addition to my other list of nerd credentials, which also includes a love of The Martian by Andy Weir, The Lord of the Rings, and the Apollo moon landings. 
       </p>
     </div>
   );
