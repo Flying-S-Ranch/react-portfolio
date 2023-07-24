@@ -1,6 +1,4 @@
-// Connects Header.jsx to Header.css
-import '../styles/Header.css'
-// import Navbar from './UI/Navbar'
+import 'bulma/css/bulma.min.css';
 
 const styles = {
     headerStyle: {
