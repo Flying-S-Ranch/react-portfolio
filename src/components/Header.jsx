@@ -9,6 +9,7 @@ const styles = {
     },
 }
 
+// eslint-disable-next-line react/prop-types
 function Header({ currentPage, handlePageChange }) {
     return (
         <header style={styles.headerStyle}>
