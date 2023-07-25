@@ -5,14 +5,20 @@ export default function Portfolio() {
     <div className="card">
       <div className="card-image">
         <figure className="image is-4by3">
-          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+          <a href="https://croberts27.github.io/recyculator/">
+            <img src="../../../../assets/images/Recyculator.png" alt="recycling webpage image"/>
+          </a>
         </figure>
       </div>
       <div className="card-content">
         <div className="media">
           <div className="media-content">
-            <p className="title is-4">Recyculator</p>
-            <p className="subtitle is-6">@johnsmith</p>
+            <a href="https://croberts27.github.io/recyculator/">
+              <p className="title is-4">Recyculator</p>
+            </a>
+            <a href="https://github.com/croberts27/recyculator">
+              <p className="subtitle is-6">GitHub Repository</p>
+            </a>
           </div>
         </div>
       </div>
