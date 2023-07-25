@@ -133,25 +133,25 @@ Generates passwords with user-chosen characters and length
 <div className="card column is-one-third flex-wrap m-1">
 <div className="card-image">
   <figure className="image is-4by3">
-    <a href="https://legendsmith-77384eb64fff.herokuapp.com/char-form">
-      <img src="../../../../assets/images/LegendSmith.png" alt="fantasy character webpage image"/>
+    <a href="https://flying-s-ranch.github.io/javascript-quiz-game/">
+      <img src="../../../../assets/images/quiz.png" alt="multiple choice quiz webpage image"/>
     </a>
   </figure>
 </div>
 <div className="card-content">
   <div className="media">
     <div className="media-content">
-      <a href="https://legendsmith-77384eb64fff.herokuapp.com/char-form">
-        <p className="title is-4">LegendSmith</p>
+      <a href="https://flying-s-ranch.github.io/javascript-quiz-game/">
+        <p className="title is-4">JavaScript</p>
       </a>
-      <a href="https://github.com/branchwag/character-generator">
+      <a href="https://github.com/Flying-S-Ranch/javascript-quiz-game">
         <p className="subtitle is-6">Click here for the GitHub Repository</p>
       </a>
     </div>
   </div>
 </div>
 <div className="content">
-Generates fantasy names and backstories based on user input
+Timed quiz with questions about JavaScript
 </div>
 </div>
     </div>
