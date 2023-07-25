@@ -17,15 +17,14 @@ export default function Portfolio() {
               <p className="title is-4">Recyculator</p>
             </a>
             <a href="https://github.com/croberts27/recyculator">
-              <p className="subtitle is-6">GitHub Repository</p>
+              <p className="subtitle is-6">Click here for the GitHub Repository</p>
             </a>
           </div>
         </div>
       </div>
 
     <div className="content">
-      Shows users where and how to recycle tricky items<a>@bulmaio</a>.
-      <a href="#">#css</a> <a href="#">#responsive</a> 
+      Shows users where and how to recycle tricky items
     </div>
   </div>
   );
