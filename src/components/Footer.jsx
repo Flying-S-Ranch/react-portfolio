@@ -10,7 +10,9 @@ const styles = {
 function Footer() {
     return (
         <footer style={styles.footerStyle} className='footer'>
-            <h2>Hello from the footer!</h2>
+            <a href="https://github.com/Flying-S-Ranch">
+              <h2>Visit my GitHub Profile</h2>
+            </a>
         </footer>
     );
 }
