@@ -133,8 +133,8 @@ Generates passwords with user-chosen characters and length
 <div className="card column is-one-third flex-wrap m-1">
 <div className="card-image">
   <figure className="image is-4by3">
-    <a href="https://flying-s-ranch.github.io/javascript-quiz-game/">
-      <img src="../../../../assets/images/quiz.png" alt="multiple choice quiz webpage image"/>
+    <a href="https://untitled-art-app-b560d4f5fa59.herokuapp.com/">
+      <img src="../../../../assets/images/untitled.png" alt="untitled art app image"/>
     </a>
   </figure>
 </div>
@@ -142,16 +142,16 @@ Generates passwords with user-chosen characters and length
   <div className="media">
     <div className="media-content">
       <a href="https://flying-s-ranch.github.io/javascript-quiz-game/">
-        <p className="title is-4">JavaScript</p>
+        <p className="title is-4">untitled art app</p>
       </a>
-      <a href="https://github.com/Flying-S-Ranch/javascript-quiz-game">
+      <a href="https://github.com/vlexaega/project3-untitled">
         <p className="subtitle is-6">Click here for the GitHub Repository</p>
       </a>
     </div>
   </div>
 </div>
 <div className="content">
-Timed quiz with questions about JavaScript
+A platform for artists to connect and share their work
 </div>
 </div>
     </div>
