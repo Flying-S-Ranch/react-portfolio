@@ -12,6 +12,8 @@ The Bulma card template was adapted from the example in the Bulma docs.
 
 I learned how to link Bulma to React files from this Log Rocket article: https://blog.logrocket.com/how-to-use-bulma-css-with-react/
 
+I learned how to insert a 'mailto' link using this W3 schools article: https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
+
 ## License
 The MIT License (MIT)
 Copyright © 2023
