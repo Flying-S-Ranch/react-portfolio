@@ -1,7 +1,10 @@
+import 'bulma/css/bulma.min.css';
+
 export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
+      <a href="https://github.com/Flying-S-Ranch" class="button">Visit my Github profile</a>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
