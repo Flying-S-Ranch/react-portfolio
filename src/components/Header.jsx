@@ -4,7 +4,7 @@ function Header({ currentPage, handlePageChange }) {
     return (
         <header>
           <h1>Samantha Shrauner</h1>
-          <nav className="navbar" role="navigation" aria-label="main navigation">
+          <nav className="navbar is-flex" role="navigation" aria-label="main navigation">
 
               <div className="navbar-item">
                 <a 
@@ -14,7 +14,7 @@ function Header({ currentPage, handlePageChange }) {
                    About Me
                 </a>
               </div>
-              <div className="navbar-item">
+              <div className="navbar-item is-flex-wrap-wrap">
                 <a 
                   className={currentPage === 'Portfolio' ? 'button is-danger' : 'button is-primary'} 
                   href="#portfolio"
