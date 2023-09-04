@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
 
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'About' ? 'navbar-item-active-color' : 'navbar-item'} 
+                  className={currentPage === 'About' ? 'button is-danger' : 'button is-primary'} 
                   href="#about"
                   onClick={() => handlePageChange('About')}>
                    About Me
@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
               </div>
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Portfolio' ? 'navbar-item-active-color' : 'navbar-item'} 
+                  className={currentPage === 'Portfolio' ? 'button is-danger' : 'button is-primary'} 
                   href="#portfolio"
                   onClick={() => handlePageChange('Portfolio')}>
                    Portfolio
@@ -24,7 +24,7 @@ function Header({ currentPage, handlePageChange }) {
               </div>
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Contact' ? 'navbar-item-active-color' : 'navbar-item'} 
+                  className={currentPage === 'Contact' ? 'button is-danger' : 'button is-primary'} 
                   href="#contact"
                   onClick={() => handlePageChange('Contact')}>
                    Contact
@@ -32,20 +32,12 @@ function Header({ currentPage, handlePageChange }) {
               </div>
               <div className="navbar-item">
                 <a 
-                  className={currentPage === 'Resume' ? 'navbar-item-active-color' : 'navbar-item'} 
+                  className={currentPage === 'Resume' ? 'button is-danger' : 'button is-primary'} 
                   href="#resume"
                   onClick={() => handlePageChange('Resume')}>
                    Resume
                 </a>
               </div>
-          <div id="navbarElements" className="navbar-menu">
-            <div className="navbar-start">
-
-
-
-
-            </div>
-          </div>
         </nav>
       </header>
     )
