@@ -2,11 +2,11 @@ import 'bulma/css/bulma.min.css';
 
 function Header({ currentPage, handlePageChange }) {
     return (
-        <header>
-          <h1>Samantha Shrauner</h1>
+        <header className='is-flex-wrap-wrap'>
+          <h1 className='is-size-1 m-2 is-flex-wrap-wrap'>Samantha Shrauner</h1>
           <nav className="navbar is-flex" role="navigation" aria-label="main navigation">
 
-              <div className="navbar-item">
+              <div className="navbar-item is-flex-wrap-wrap">
                 <a 
                   className={currentPage === 'About' ? 'button is-danger' : 'button is-primary'} 
                   href="#about"
@@ -22,7 +22,7 @@ function Header({ currentPage, handlePageChange }) {
                    Portfolio
                 </a>
               </div>
-              <div className="navbar-item">
+              <div className="navbar-item is-flex-wrap-wrap">
                 <a 
                   className={currentPage === 'Contact' ? 'button is-danger' : 'button is-primary'} 
                   href="#contact"
@@ -30,7 +30,7 @@ function Header({ currentPage, handlePageChange }) {
                    Contact
                 </a>
               </div>
-              <div className="navbar-item">
+              <div className="navbar-item is-flex-wrap-wrap">
                 <a 
                   className={currentPage === 'Resume' ? 'button is-danger' : 'button is-primary'} 
                   href="#resume"
