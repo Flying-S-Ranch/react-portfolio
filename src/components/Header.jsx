@@ -1,26 +1,11 @@
 import 'bulma/css/bulma.min.css';
-import '../styles/Header.css'
 
-const styles = {
-    headerStyle: {
-        background: 'red',
-    },
-    headingStyle: {
-        fontSize:'70px'
-    },
-}
-
-// eslint-disable-next-line react/prop-types
 function Header({ currentPage, handlePageChange }) {
     return (
-        <header style={styles.headerStyle}>
+        <header>
+          <h1>Samantha Shrauner</h1>
           <nav className="navbar" role="navigation" aria-label="main navigation">
-            <div className="navbar-brand">
-              <h1 className='navbar-item'>Samantha Shrauner</h1>
-            </div>
 
-          <div id="navbarElements" className="navbar-menu">
-            <div className="navbar-start">
               <div className="navbar-item">
                 <a 
                   className={currentPage === 'About' ? 'navbar-item-active-color' : 'navbar-item'} 
@@ -29,7 +14,6 @@ function Header({ currentPage, handlePageChange }) {
                    About Me
                 </a>
               </div>
-
               <div className="navbar-item">
                 <a 
                   className={currentPage === 'Portfolio' ? 'navbar-item-active-color' : 'navbar-item'} 
@@ -38,7 +22,6 @@ function Header({ currentPage, handlePageChange }) {
                    Portfolio
                 </a>
               </div>
-
               <div className="navbar-item">
                 <a 
                   className={currentPage === 'Contact' ? 'navbar-item-active-color' : 'navbar-item'} 
@@ -47,7 +30,6 @@ function Header({ currentPage, handlePageChange }) {
                    Contact
                 </a>
               </div>
-
               <div className="navbar-item">
                 <a 
                   className={currentPage === 'Resume' ? 'navbar-item-active-color' : 'navbar-item'} 
@@ -56,6 +38,11 @@ function Header({ currentPage, handlePageChange }) {
                    Resume
                 </a>
               </div>
+          <div id="navbarElements" className="navbar-menu">
+            <div className="navbar-start">
+
+
+
 
             </div>
           </div>
