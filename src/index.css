@@ -12,19 +12,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} */
+:root {
+  --yellow: #edae49;
+  --raspberry: #d1495b;
+  --teal: #00798c;
+  --blue: #30638e;
+  --indigo: #003d5b;
 }
+
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--indigo);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--raspberry);
 }
 
 body {
-  margin: 0;
+  margin: 2em;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -34,6 +42,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--blue)
 }
 
 button {
@@ -55,15 +64,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+footer {
+  background-color: var(--blue);
+  max-height: 100px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;
   }
-} */
+
