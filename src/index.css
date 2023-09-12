@@ -6,6 +6,13 @@
   --indigo: #003d5b;
 }
 
+/* Universal styles follow the Traversy Media tutorial, please see README for link */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
 a {
   font-weight: 500;
   color: var(--indigo);
@@ -13,6 +20,11 @@ a {
 }
 a:hover {
   color: var(--raspberry);
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 20px;
 }
 
 body {
@@ -31,12 +43,14 @@ h1 {
 }
 
 .profile-photo {
-  max-width: 250px;
+  max-width: 90%;
   margin: 10px;
-  flex-shrink: 2
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -46,7 +60,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
+} */
 .is-primary {
   background-color: (--teal)
 }
@@ -64,8 +78,10 @@ footer {
   max-height: 100px;
 }
 .card {
+  margin: 10px;
   flex-direction: row;
-  margin-top: 20px
+  max-width: 45%;
+  display: flex
 }
 
 .photo-card {
@@ -74,8 +90,13 @@ footer {
 
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 500px) {
-  .card {
+@media (max-width: 768px) {
+  .flex-container {
     flex-direction: column
+  }
+
+  .flex-item {
+    justify-content: space-around;
+    max-width: 100px;
   }
 }

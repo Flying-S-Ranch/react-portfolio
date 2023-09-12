@@ -1,0 +1,19 @@
+.navbar {
+    justify-content: left;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    h1 {
+        text-align: center;
+    }
+}

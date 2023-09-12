@@ -3,11 +3,11 @@ import '../../../src/index.css'
 
 export default function About() {
   return (
-<div>
-<div className="card photo-card">
+<div className='about flex-container'>
+<div className="card photo-card flex-item">
     <img src="../../../../assets/images/Shrauner.jpg" alt="Samantha with plant"  className='profile-photo'/>
 </div>
-    <div className="card">
+    <div className="card flex-item">
   <div className="card-content">
     <div className="media">
       <div className="media-left">
