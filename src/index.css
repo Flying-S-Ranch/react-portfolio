@@ -1,42 +1,56 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+:root {
+  --yellow: #edae49;
+  --raspberry: #d1495b;
+  --teal: #00798c;
+  --blue: #30638e;
+  --indigo: #003d5b;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* Universal styles follow the Traversy Media tutorial, please see README for link */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--indigo);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--raspberry);
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 20px;
 }
 
 body {
-  margin: 0;
+  margin: 2em;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--yellow);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--blue)
 }
 
-button {
+.profile-photo {
+  max-width: 90%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px
+}
+
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -46,7 +60,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+} */
+.is-primary {
+  background-color: (--teal)
 }
+
 button:hover {
   border-color: #646cff;
 }
@@ -55,15 +73,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+footer {
+  background-color: var(--blue);
+  max-height: 100px;
+}
+.card {
+  margin: 10px;
+  flex-direction: row;
+  max-width: 45%;
+  display: flex
+}
+
+.photo-card {
+  max-width: 35%;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column
   }
-  a:hover {
-    color: #747bff;
+
+  .flex-item {
+    justify-content: space-around;
+    max-width: 100px;
   }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+}

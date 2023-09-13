@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.min.css';
+import '../styles/Header.css'
 
 function Header({ currentPage, handlePageChange }) {
     return (

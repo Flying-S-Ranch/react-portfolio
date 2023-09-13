@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     return <Resume />;
-  };
+  }
 
   const handlePageChange = (page) => setCurrentPage(page);
 
@@ -29,5 +29,5 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <section className="mx-3">{renderPage()}</section>
     </div>
-  );
+  )
 }
