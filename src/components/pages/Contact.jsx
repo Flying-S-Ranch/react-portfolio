@@ -17,10 +17,10 @@ export default function Contact() {
         <p className="title is-4">John Smith</p>
         <p className="subtitle is-6">@johnsmith</p>
       </div>
+      <a href="https://github.com/Flying-S-Ranch" class="button is-info">Visit my Github profile</a>
     </div>
   </div>
 </div>
-      <a href="https://github.com/Flying-S-Ranch" class="button">Visit my Github profile</a>
       <a href="https://www.linkedin.com/in/samantha-shrauner/" class="button">Visit my LinkedIn profile</a>
       <a href="mailto:samleashrauner@gmail.com" class="button">Get in Touch by Email</a>
     </div>
