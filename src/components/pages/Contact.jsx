@@ -7,7 +7,7 @@ export default function Contact() {
       <h2>Contact Me</h2>
       <div className="flex-container">
 
-      <div className="card">
+      <div className="card contact-card">
   
   <div className="card-content">
     <div className="media">
@@ -17,14 +17,13 @@ export default function Contact() {
         </figure>
       </div>
       <div className="media-content">
-        <p className="title is-4">John Smith</p>
-        <p className="subtitle is-6">@johnsmith</p>
+        <p className="title is-4">Github</p>
       </div>
       <a href="https://github.com/Flying-S-Ranch" class="button is-info">Visit my Github profile</a>
     </div>
   </div>
 </div>
-<div className="card">
+<div className="card contact-card">
   
   <div className="card-content">
     <div className="media">
@@ -34,28 +33,26 @@ export default function Contact() {
         </figure>
       </div>
       <div className="media-content">
-        <p className="title is-4">John Smith</p>
-        <p className="subtitle is-6">@johnsmith</p>
+        <p className="title is-4">LinkedIn</p>
       </div>
       <a href="https://github.com/Flying-S-Ranch" class="button is-info">Visit my Github profile</a>
     </div>
   </div>
   
 </div>
-<div className="card">
+<div className="card contact-card">
   
   <div className="card-content">
-    <div className="media">
-      <div className="media-left">
-        <figure className="image is-48x48">
-          <img src="images/github-mark.png" alt="Github logo"/>
-        </figure>
+    <div className="media contact-card">
+      <div className="media-content social-media">
+        <div className="media-left">
+          <figure className="image is-48x48">
+            <img src="images/github-mark.png" alt="Github logo"/>
+          </figure>
+        </div>
+        <p className="title is-4">Email</p>
       </div>
-      <div className="media-content">
-        <p className="title is-4">John Smith</p>
-        <p className="subtitle is-6">@johnsmith</p>
-      </div>
-      <a href="https://github.com/Flying-S-Ranch" class="button is-info">Visit my Github profile</a>
+      <a href="https://github.com/Flying-S-Ranch" className="button is-info social-button">Visit my Github profile</a>
     </div>
   </div>
   

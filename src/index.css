@@ -87,6 +87,22 @@ footer {
   display: flex
 }
 
+.contact-card {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-button {
+  margin-top: 20px;
+}
+
 .flex-item {
   display: flex
 }
