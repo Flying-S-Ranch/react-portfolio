@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className="card-image">
         <figure className="image is-4by3">
           <a href="https://croberts27.github.io/recyculator/">
-            <img src="../../../../assets/images/Recyculator.png" alt="recycling webpage image"/>
+            <img src="images/Recyculator.png" alt="recycling webpage image"/>
           </a>
         </figure>
       </div>
@@ -33,7 +33,7 @@ export default function Portfolio() {
 <div className="card-image">
   <figure className="image is-4by3">
     <a href="https://legendsmith-77384eb64fff.herokuapp.com/char-form">
-      <img src="../../../../assets/images/LegendSmith.png" alt="fantasy character webpage image"/>
+      <img src="images/LegendSmith.png" alt="fantasy character webpage image"/>
     </a>
   </figure>
 </div>
@@ -58,7 +58,7 @@ Generates fantasy names and backstories based on user input
       <div className="card-image">
         <figure className="image is-4by3">
           <a href="https://flying-s-ranch.github.io/weather-dashboard/">
-            <img src="../../../../assets/images/weather-dashboard.png" alt="weather webpage image"/>
+            <img src="images/weather-dashboard.png" alt="weather webpage image"/>
           </a>
         </figure>
       </div>
@@ -84,7 +84,7 @@ Generates fantasy names and backstories based on user input
 <div className="card-image">
   <figure className="image is-4by3">
     <a href="https://flying-s-ranch.github.io/password-generator/">
-      <img src="../../../../assets/images/password.png" alt="password generator webpage"/>
+      <img src="images/password.png" alt="password generator webpage"/>
     </a>
   </figure>
 </div>
@@ -109,7 +109,7 @@ Generates passwords with user-chosen characters and length
       <div className="card-image">
         <figure className="image is-4by3">
           <a href="https://flying-s-ranch.github.io/daily-planner/">
-            <img src="../../../../assets/images/daily-planner.png" alt="daily planner webpage image"/>
+            <img src="images/daily-planner.png" alt="daily planner webpage image"/>
           </a>
         </figure>
       </div>
@@ -134,7 +134,7 @@ Generates passwords with user-chosen characters and length
 <div className="card-image">
   <figure className="image is-4by3">
     <a href="https://untitled-art-app-b560d4f5fa59.herokuapp.com/">
-      <img src="../../../../assets/images/untitled.png" alt="untitled art app image"/>
+      <img src="images/untitled.png" alt="untitled art app image"/>
     </a>
   </figure>
 </div>
