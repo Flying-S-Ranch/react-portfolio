@@ -30,8 +30,6 @@ a:hover {
 body {
   margin: 2em;
   display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   background-color: var(--yellow);
   width: 100%
@@ -85,6 +83,11 @@ footer {
   flex-direction: row;
   max-width: 45%;
   display: flex
+}
+
+.social-container {
+  justify-content: space-around;
+  width: 100%
 }
 
 .contact-card {
