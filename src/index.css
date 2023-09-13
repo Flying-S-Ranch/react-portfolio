@@ -39,7 +39,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: var(--blue)
+  color: var(--blue);
+  margin-left: 20px
 }
 
 .profile-photo {
@@ -47,7 +48,8 @@ h1 {
   margin: 10px;
   justify-content: center;
   align-items: center;
-  border-radius: 5px
+  border-radius: 5px;
+  display: flex
 }
 
 /* button {
@@ -81,6 +83,10 @@ footer {
   margin: 10px;
   flex-direction: row;
   max-width: 45%;
+  display: flex
+}
+
+.flex-item {
   display: flex
 }
 
