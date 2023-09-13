@@ -5,7 +5,9 @@ export default function About() {
   return (
 <div className='about flex-container'>
 <div className="card photo-card flex-item">
-    <img src="../../../../assets/images/Shrauner.jpg" alt="Samantha with plant"  className='profile-photo'/>
+  <figure className='flex-container'>
+    <img src="images/Shrauner.jpg" alt="Samantha with plant"  className='profile-photo'/>
+  </figure>
 </div>
     <div className="card flex-item">
   <div className="card-content">
