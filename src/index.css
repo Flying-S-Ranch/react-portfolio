@@ -101,13 +101,19 @@ footer {
   align-items: center;
 }
 
-.social-media {
+.card-content {
   display: flex;
+  flex-direction: column;
+}
+
+.social-media {
+  /* display: flex; */
   align-items: center;
 }
 
 .social-button {
   margin-top: 20px;
+  justify-content: center;
 }
 
 .flex-item {
