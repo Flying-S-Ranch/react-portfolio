@@ -31,7 +31,7 @@ export default function Contact() {
       <div className="media-content social-media">
         <div className="media-left">
           <figure className="image is-48x48">
-            <img src="images/github-mark.png" alt="Github logo"/>
+            <img src="images/LI-In-Bug.png" alt="Github logo"/>
           </figure>
         </div>
         <p className="title is-4">LinkedIn</p>
@@ -49,7 +49,7 @@ export default function Contact() {
       <div className="media-content social-media">
         <div className="media-left">
           <figure className="image is-48x48">
-            <img src="images/github-mark.png" alt="Github logo"/>
+            <img src="images/Gmail_Icon.original.png" alt="Github logo"/>
           </figure>
         </div>
         <p className="title is-4">Email</p>

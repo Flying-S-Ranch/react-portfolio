@@ -14,6 +14,12 @@ I learned how to link Bulma to React files from this Log Rocket article: https:/
 
 I learned how to insert a 'mailto' link using this W3 schools article: https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
 
+Brand Logos:
+The LinkedIn logo was found here: https://brand.linkedin.com/downloads
+The Github logo was found here: https://github.com/logos
+The Gmail logo was found here: https://blog.google/press/ 
+
+
 ## License
 The MIT License (MIT)
 Copyright © 2023
