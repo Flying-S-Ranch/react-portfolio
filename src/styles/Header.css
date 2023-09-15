@@ -1,5 +1,11 @@
+header {
+    background-color: var(--indigo);
+}
+
 .navbar {
     justify-content: left;
+    width:max-content;
+    background-color: var(--indigo);
 }
 
 .flex-container {

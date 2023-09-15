@@ -1,12 +1,8 @@
 // Connects Footer.jsx to Footer.css
-import '../index.css'
 import 'bulma/css/bulma.min.css';
+import '../index.css'
+import '../styles/Footer.css'
 
-// const styles = {
-//     footerStyle: {
-//         background: 'teal',
-//     }
-// }
 
 function Footer() {
     return (
