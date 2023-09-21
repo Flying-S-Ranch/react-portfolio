@@ -32,11 +32,9 @@ a:hover {
 }
 
 body {
-  margin: 2em;
   display: flex;
   min-height: 100vh;
   background-color: var(--yellow);
-  overflow: auto;
 }
 
 h1 {
@@ -70,6 +68,10 @@ h1 {
   background-color: (--teal)
 }
 
+.portfolio-section {
+  margin: 1em
+}
+
 button:hover {
   border-color: #646cff;
 }
@@ -88,11 +90,11 @@ footer {
   max-width: 45%;
   display: flex
 }
-
+/* 
 .social-container {
   justify-content: space-around;
   width: 100%
-}
+} */
 
 .contact-card {
   flex-direction: column;
