@@ -103,6 +103,14 @@ footer {
   align-items: center;
 }
 
+.project-card {
+  background: url("images/untitled-app.png");
+}
+
+.hidden {
+  display: none;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;

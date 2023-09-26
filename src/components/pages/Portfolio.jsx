@@ -7,8 +7,8 @@ export default function Portfolio() {
       <div className='flex-container social-container is-flex'>
 
         {/* This is the card for the art app */}
-        <div className="card column is-one-third flex-wrap m-1">
-          <div className="card-content">
+        <div className="card column is-one-third flex-wrap m-1 project-card">
+          <div className="hidden">
             <div className="media-content social-media">
               <div className="media">
                 <div className="media-left">
