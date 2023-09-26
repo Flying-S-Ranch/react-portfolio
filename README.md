@@ -19,6 +19,8 @@ The LinkedIn logo was found here: https://brand.linkedin.com/downloads
 The Github logo was found here: https://github.com/logos
 The Gmail logo was found here: https://blog.google/press/ 
 
+I learned about the CSS 'background' property from the following W3 Schools article: https://www.w3schools.com/cssref/css3_pr_background.php
+
 
 ## License
 The MIT License (MIT)

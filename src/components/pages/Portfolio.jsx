@@ -7,22 +7,20 @@ export default function Portfolio() {
       <div className='flex-container social-container is-flex'>
 
         {/* This is the card for the art app */}
-        <div className="card column is-one-third flex-wrap m-1 project-card">
+        <div className="card project-card flex-wrap">
+          <img src="images/untitled-app.png" alt="art platform website" className='project-image' />
           <div className="hidden">
-            <div className="media-content social-media">
-              <div className="media">
-                <div className="media-left">
-                  <figure className="image is-96x96">
-                    <img src="images/mainlogo.png" alt="art app logo"/>
-                  </figure>
-                </div>
-                <div className="media-content">
-                  <p className="title is-4">"Untitled" Art App</p>
-                  <p className="subtitle is-6">A platform for artists to connect and share their work</p>
-                </div>
-              </div>
+            <div className="media-content">
+              <p className="title is-4 my-1">"Untitled" Art App</p>
+              <p className="subtitle is-6 my-2">A platform for artists to connect and share their work</p>
+              <p className="subtitle is-6">Tech: React, Tailwind, MongoDB, Express, NodeJS</p>
             </div>
-            <a href="https://github.com/vlexaega/project3-untitled" className="button is-info social-button">See the Github Repository</a>
+            <div className='project-buttons'>
+              <a href="https://untitled-art-app-b560d4f5fa59.herokuapp.com/" className="button is-info social-button mx-1">See the App</a>
+              <a href="https://github.com/vlexaega/project3-untitled" className="button is-info social-button">Github Repo</a>
+              <p>guest@guest.com 1234guest</p>
+            </div>
+
           </div>
         </div>
 
