@@ -20,27 +20,23 @@ export default function Portfolio() {
               <a href="https://github.com/vlexaega/project3-untitled" className="button is-info social-button">Github Repo</a>
               <p>guest@guest.com 1234guest</p>
             </div>
-
           </div>
         </div>
 
         {/* This is the card for the character generator app */}
-        <div className="card column is-one-third flex-wrap m-1">
-          <div className="card-content">
-            <div className="media-content social-media">
-              <div className="media">
-                <div className="media-left">
-                  <figure className="image is-96x96">
-                    <img src="images/LegendSmith-square.png" alt="starry sky"/>
-                  </figure>
-                </div>
-                <div className="media-content">
-                  <p className="title is-4">LegendSmith</p>
-                  <p className="subtitle is-6">Fantasy character generator</p>
-                </div>
-              </div>
+        <div className="card project-card flex-wrap">
+          <img src="images/LegendSmith.png" alt="character generator website" className='project-image' />
+          <div className="hidden">
+            <div className="media-content">
+              <p className="title is-4 my-1">LegendSmith</p>
+              <p className="subtitle is-6 my-2">Fantasy character generator</p>
+              <p className="subtitle is-6">Tech: MySQL, JavaScript, Bootstrap, HTML, NodeJS</p>
             </div>
-            <a href="https://github.com/branchwag/character-generator" className="button is-info social-button">See the Github Repository</a>
+            <div className='project-buttons'>
+              <a href="https://legendsmith-77384eb64fff.herokuapp.com/login" className="button is-info social-button mx-1">See the App</a>
+              <a href="https://github.com/Flying-S-Ranch/character-generator" className="button is-info social-button">Github Repo</a>
+              <p>guest@guest.com 1234guest</p>
+            </div>
           </div>
         </div>
 
