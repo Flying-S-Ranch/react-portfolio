@@ -115,6 +115,12 @@ footer {
   border-radius: 10px;
 }
 
+.resume-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .resume {
   width: 200%;
   height: 120%

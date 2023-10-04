@@ -1,7 +1,12 @@
 export default function Resume() {
   return (
     <div>
-      <h1 className="m-2">Resume</h1>
+      <div className="resume-box">
+        <h1 className="m-2">Resume</h1>
+        {/* I learned about the download attribute from a W3 schools article, please see README for link */}
+        <a href="files/resume.pdf" className="button is-info social-button" download>Download PDF</a>
+      </div>
+      {/* I learned how to use an embed element from an online article, please see the README for the link */}
       <embed src="files/resume.pdf" type="application/pdf" className="resume"/>
     </div>
   );

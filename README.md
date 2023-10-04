@@ -23,6 +23,10 @@ I learned about the CSS 'background' property from the following W3 Schools arti
 
 I learned how to make elements visible on hover from the following W3 Schools article: https://www.w3schools.com/howto/howto_css_display_element_hover.asp
 
+I learned how to embed a pdf through the following article: https://pdf.wondershare.com/how-to/embed-pdf-in-html.html#:~:text=the%20data%20attribute.-,Embed%20PDF%20in%20HTML%20Using%20the%20Tag,file%20that%20will%20be%20embedded.
+
+I learned about the 'download' attribute from the following W3 Schools article: https://www.w3schools.com/tags/att_a_download.asp
+
 
 ## License
 The MIT License (MIT)
