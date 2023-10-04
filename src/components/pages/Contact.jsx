@@ -4,10 +4,10 @@ import '../../../src/index.css'
 export default function Contact() {
   return (
     <div>
-      <div className="flex-container social-container">
+      <div className="flex-container social-container is-flex">
         
         {/* Github Contact Card */}
-        <div className="card contact-card">
+        <div className="card contact-card flex-wrap">
           <div className="card-content">
               <div className="media-content social-media">
                 <div className="media">
@@ -27,7 +27,7 @@ export default function Contact() {
         </div>
 
         {/* LinkedIn Contact Card */}
-        <div className="card contact-card">
+        <div className="card contact-card flex-wrap">
           <div className="card-content">
               <div className="media-content social-media">
                 <div className="media">
@@ -47,7 +47,7 @@ export default function Contact() {
         </div>
 
         {/* Gmail Contact Card */}
-        <div className="card contact-card">
+        <div className="card contact-card flex-wrap">
           <div className="card-content">
               <div className="media-content social-media">
                 <div className="media">
