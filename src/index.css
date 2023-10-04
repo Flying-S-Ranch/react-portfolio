@@ -115,6 +115,11 @@ footer {
   border-radius: 10px;
 }
 
+.resume {
+  width: 200%;
+  height: 120%
+}
+
 /* The next two elements display portfolio information on hover. I learned how to display objects on hover from a W3 Schools article, please see the README for the link */
 .hidden {
   display: none;
