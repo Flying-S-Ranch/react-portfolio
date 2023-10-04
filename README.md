@@ -10,6 +10,8 @@ This project used examples from the activities in module 20 to structure the fol
 
 The Bulma card template was adapted from the example in the Bulma docs.
 
+The color variables were found on coolers.com, available here: https://coolors.co/user/palettes/64ee4d4d061019000bfbf21e
+
 I learned how to link Bulma to React files from this Log Rocket article: https://blog.logrocket.com/how-to-use-bulma-css-with-react/
 
 I learned how to insert a 'mailto' link using this W3 schools article: https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
