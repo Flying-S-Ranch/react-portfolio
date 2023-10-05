@@ -7,7 +7,9 @@ export default function Resume() {
         <a href="files/resume.pdf" className="button is-info social-button" download>Download PDF</a>
       </div>
       {/* I learned how to use an embed element from an online article, please see the README for the link */}
-      <embed src="files/resume.pdf" type="application/pdf" className="resume"/>
+      <div className="resume-container">
+        <embed src="files/resume.pdf" type="application/pdf" className="resume"/>
+      </div>
     </div>
   );
 }
