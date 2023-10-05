@@ -138,9 +138,15 @@ p {
   margin-bottom: 20px;
 }
 
+.resume-container{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .resume {
-  width: 200%;
-  height: 120%
+  width: 100%;
+  height: 100%;
 }
 
 /* The next two elements display portfolio information on hover. I learned how to display objects on hover from a W3 Schools article, please see the README for the link */
